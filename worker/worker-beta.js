@@ -1,6 +1,3 @@
-/**
-* A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index
-*/
 const authConfig = {
 	"siteName": "Bhadoo Drive Index", // Website name
 	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
@@ -118,16 +115,16 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Drive-Index@${uiConfig.version}/css/mdui-style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/D-cat1/INDCAT@latest/css/mdui-style.min.css">
   <script src="https://cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Drive-Index@${uiConfig.version}/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Drive-Index@${uiConfig.version}/js/app.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Drive-Index@${uiConfig.version}/js/mdui.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/D-cat1/INDCAT@latest/css/bootstrap/${uiConfig.dark_mode ? 'dark' : 'light'}.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/D-cat1/INDCAT@latest/js/app.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/D-cat1/INDCAT@latest/js/mdui.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
 </head>
 <body>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Drive-Index@${uiConfig.version}/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/D-cat1/INDCAT@latest/js/bootstrap.min.js"></script>
 </html>`;
 };
 
