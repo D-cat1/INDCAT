@@ -1,6 +1,3 @@
-// Redesigned by t.me/TheFirstSpeedster from https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index which was written by someone else, credits are given on Source Page.
-
-// Initialize the page
 function init() {
 	document.siteName = $('title').html();
 	var html = `
@@ -132,7 +129,6 @@ function nav(path) {
 	}
 
 	html += `</div></li><li class="nav-item">
-    <a class="nav-link" href="${UI.contact_link}" target="_blank">Contact</a>
   </li>`;
 
 	var search_text = model.is_search_page ? (model.q || '') : '';
