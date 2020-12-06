@@ -1,5 +1,5 @@
 const authConfig = {
-	"siteName": "Bhadoo Drive Index", // Website name
+	"siteName": "Drive Index", // Website name
 	"client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com",
 	"client_secret": "ZNPZ-vS6N9Zjsyb_sNMZmXHL",
 	"refresh_token": "", // Authorize token
@@ -54,11 +54,10 @@ const authConfig = {
 const uiConfig = {
 	"dark_mode": true, // switch between light or dark themes
 	"logo_image": false, // true if you're using image link in next option.
-	"logo_link_name": "Bhadoo Drive Index", // if logo is true then link otherwise just text for name
-	"contact_link": "https://t.telegram.ind.in/BhadooCloud", // Link to Contact Button on Menu
-	"copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
-	"company_name": "Bhadoo Cloud", // Name next to copyright
-	"company_link": "https://t.telegram.ind.in/BhadooCloud", // link of copyright name
+	"logo_link_name": "Drive index", // if logo is true then link otherwise just text for name
+	"copyright_year": "202", // year of copyright, can be anything like 2015 - 2020 or just 2020
+	"company_name": "Drive Index", // Name next to copyright
+	"company_link": "#", // link of copyright name
 	"credit": true, // Set this to true to give us credit
 };
 
